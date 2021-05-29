@@ -1,0 +1,181 @@
+#title {
+  background-color: #ff4c68;
+}
+
+.container-fluid {
+  padding: 3% 15% 15%;
+}
+
+h1 {
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+  font-weight: 900;
+
+}
+
+h2{
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+h3 {
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.iphone {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+
+.iphoneimg{
+    position: relative;
+  }
+
+body {
+  font-family: 'Montserrat-thin', sans-serif;
+}
+
+/* Nav Bar */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-300', sans-serif;
+}
+
+.navcon {
+  padding: 1rem 0;
+}
+
+/* Download Buttons */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Features */
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 0.5rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+
+/* Testimonials */
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testo-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+
+}
+
+.press-logo{
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+/* PRICING */
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+
+.pricingcol{
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px){
+  .iphone{
+    position: static;
+    transform: rotate(0);
+    padding-top: 1.25rem;
+
+  }
+
+  #title{
+    text-align: center;
+  }
+
+  .container-fluid {
+    padding: 3% 15% 7%;
+  }
+
+}
+
+
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+padding: 3% 15% 0;
+}
+
+.h32{
+  font-family: 'Montserrat-bold', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+
+
+#footer{
+  text-align: center;
+  padding: 3% 15%;
+}
+
+.iconfoot{
+  margin: 20px 10px;
+}
